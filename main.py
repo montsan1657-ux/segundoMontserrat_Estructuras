@@ -1,14 +1,11 @@
 from clases.herencia2.puente import Puente
 
 def main():
-    pt=Puente("Golden gates", "Acero", "1000 mts", "funcionando", "50000 mts")
+    pt=Puente("Estructura: Puente,", "Material: Acero,", "Altura: 25 mts,", "Estado: Funcionando,", "Longitud: 50000 mts.")
     print(pt)
-    pt.construir()
-    pt.inspeccionar()
-    pt.mostrarInformacion()
     pt.alojarPersonas()
     
-if __name__ == "__init__":
+if __name__ == '__main__':
     main()
     
 

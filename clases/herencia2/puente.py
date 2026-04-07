@@ -7,6 +7,6 @@ class Puente(Estructura):
     def __str__(self):
         return super().__str__()+" "+self.longitud
     
-    def alojarPersonas():
+    def alojarPersonas(self):
         print("El puente está soportando carga")
         
