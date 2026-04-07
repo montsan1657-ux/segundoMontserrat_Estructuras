@@ -5,7 +5,7 @@ class Puente(Estructura):
         self.longitud = longitud
         
     def __str__(self):
-        return super().__str__()+" "+str(self.longitud)
+        return super().__str__()+" "+self.longitud
     
     def alojarPersonas():
         print("El puente está soportando carga")

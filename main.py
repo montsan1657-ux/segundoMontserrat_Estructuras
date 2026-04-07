@@ -8,6 +8,9 @@ def main():
     pt.mostrarInformacion()
     pt.alojarPersonas()
     
+if __name__ == "__init__":
+    main()
+    
 
 # 1. yo digo que el atributo de nombre, material, altura y estado, en si todas, ya que para todo se ocupa o tiene lo las cosas para responder esas preguntas 
 # 2. la ventaja es que no es necesario repetir mucho codigo ya que lo hereda y nos ahorramos tiempo
